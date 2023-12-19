@@ -509,66 +509,6 @@ footer {
 }
 
 
-@media screen and (max-width:900px) {
-    section h1 {
-        font-size: 30px;
-    }
-
-    .sec1 {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-
-    .sec1 img {
-        width: 50%;
-    }
-
-    .navIcon img {
-        width: 40px;
-    }
-
-    #sec1Btn>div:nth-child(2) {
-        display: none;
-    }
-
-    .sec7>div {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-
-    .sec3 {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-
-    .sec8>div {
-        flex-direction: column;
-    }
-
-    .certificateCard>div {
-        height: 50vw;
-        width: 80vw;
-    }
-
-    .projectCard>div {
-        height: 24vh;
-        width: 16vh;
-    }
-
-    .sec5 {
-        grid-template-columns: 1fr;
-    }
-
-    form {
-        gap: 50px;
-    }
-
-    .msgBox {
-        display: none;
-    }
-
-}
-
 .cube {
     /* border: 2px solid red; */
     width: 400px;
@@ -640,4 +580,77 @@ footer {
 .right {
     background-color: rgba(221, 0, 255, 0.358);
     transform: translateX(100px) rotateY(270deg);
+}
+
+
+
+@media screen and (max-width:900px) {
+    #logo{
+        display: none;
+    }
+    section h1 {
+        font-size: 30px;
+    }
+
+    .sec1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .sec1 img {
+        width: 50%;
+    }
+
+    .navIcon img {
+        width: 40px;
+    }
+
+    #sec1Btn>div:nth-child(2) {
+        display: none;
+    }
+
+    .sec7>div {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .mainSec3{
+        padding: 40px 16px;
+    }
+
+    .sec3 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .sec8>div {
+        flex-direction: column;
+    }
+
+    .certificateCard>div {
+        height: 50vw;
+        width: 80vw;
+    }
+    .sec5 {
+        grid-template-columns: 1fr;
+    }
+    .projectCard > div:nth-child(3){
+        display: none;
+    }
+    .projectCard>div {
+        height: 30vh;
+        width: 20vh;
+    }
+    .projectCardSpan > div{
+        display: none;
+    }
+
+    form {
+        gap: 50px;
+    }
+
+    .msgBox {
+        display: none;
+    }
+    
+
 }
